@@ -1,5 +1,6 @@
 
 body {
+  padding: 0;
   margin: 0;
   font-family: Arial, sans-serif;
   background: #fff;
@@ -25,25 +26,40 @@ nav a {
 }
 .aside {
   position: relative;
+  border: 1px solid red;
+  position: relative;
   text-align: center;
 }
 .aside img {
-  width: 100%;
-  max-height: 550px;
+  max-width: 1410px;
+  max-height: 560px;
+  padding: 50px 75px 50px 95px;
   object-fit: cover;
 }
 
 .aside-text {
   position: absolute;
-  bottom: 20px;
-  width: 100%;
+  left: 11.2%;
+  top: 81%;
+  width: 79%;
+  /* margin-left: 26%; */
+  margin-bottom: 02.1%;
+  /* padding: 50px 75px 50px 95px; */
+  /* bottom: 20px; */
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: bold;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px 0;
-  font-size: 50px;
+  font-size: 30px;
+  /* position: absolute; */
+  /* align-items: center; */
+  /* border:1px solid red; */
+
+  
 }
+
+
 .section-title {
   text-align: center;
   margin: 40px 0 20px;
